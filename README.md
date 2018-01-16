@@ -20,12 +20,12 @@ Detalhes
 
 ■ Quanto aos operadores:   
 
-Operador Lógico	Caracter Utilizado
-
-OU	+
-E	.
-IMPLICAÇÃO	>
-NEGAÇÃO	-
+Operador Lógico |	Caracter Utilizado
+ --- | ---
+OU | +
+E |	.
+IMPLICAÇÃO | >
+NEGAÇÃO	| -
 
 Só serão utilizados os operadores acima.
 
@@ -37,10 +37,11 @@ x	y	z	t
 
 ■ Quanto aos parênteses:
 
-Operador Unário || Operador Binário <br />
-(-x)            ||	   (x.y) <br />
-(-(x+y))        || (x>("subexpressão")) <br />
-((-x)+(-y))     ||	("sub1"+"sub2") <br />
+Operador Unário | Operador Binário 
+--- | ---
+(-x)            |	   (x.y) 
+(-(x+y))        | (x>("subexpressão")) 
+((-x)+(-y))     |	("sub1"+"sub2") 
 
 
 ■ Quanto à Entrada/Saída
@@ -72,7 +73,7 @@ Arquivo: "Expressoes.in"
 
 Arquivo: "Expressoes.out"
 
-Tabela \#1 
+Tabela \\#1 
 -----------
 |x|y|(x+y)|
 -----------
@@ -86,7 +87,7 @@ Tabela \#1
 -----------
 satisfativel e refutavel <br />
 {linha em branco} <br />
-Tabela \#2 <br />
+Tabela \\#2 <br />
 -----------------------------------
 |x|y|z|t|(x+y)|(z.t)|((x+y).(z.t))|
 -----------------------------------
