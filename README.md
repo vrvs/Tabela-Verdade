@@ -2,7 +2,7 @@
 
 Projeto I da cadeira de Lógica para Computação (IF673)
 
-# Projeto I - Gerador de Tabela-Verdade
+## Projeto I - Gerador de Tabela-Verdade
 
 O Projeto I é um Gerador de Tabela-Verdade a partir de uma Expressão bem-formada. Para tal, haverá a
 necessidade que seu programa gere automaticamente a tabela-verdade, com elementos atômicos e
