@@ -16,18 +16,20 @@ O Gerador de Tabela-Verdade deve ser entregue em uma única classe com o nome "G
 
 Este exercício é individual. Qualquer tentativa de fraude ou cópia será punida com uma nota 0 (ZERO) para ambos os infratores.
 
-O prazo de entrega do gerador é ATÉ as 23h59 do dia 11 de junho de 2017. A data de entrega não será prorrogada.
-
-
 Detalhes
 
 ■ Quanto aos operadores:   
 
 Operador Lógico	Caracter Utilizado
+
 OU	+
+
 E	.
+
 IMPLICAÇÃO	>
+
 NEGAÇÃO	-
+
 Só serão utilizados os operadores acima.
 
 ■ Quanto às variáveis:
@@ -39,8 +41,11 @@ x	y	z	t
 ■ Quanto aos parênteses:
 
 Operador Unário || Operador Binário
+
 (-x)            ||	   (x.y)
+
 (-(x+y))	    || (x>("subexpressão"))
+
 ((-x)+(-y))     ||	("sub1"+"sub2")
 
 
