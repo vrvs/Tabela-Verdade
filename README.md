@@ -2,6 +2,8 @@
 
 Projeto I da cadeira de Lógica para Computação (IF673)
 
+# Projeto I - Gerador de Tabela-Verdade
+
 O Projeto I é um Gerador de Tabela-Verdade a partir de uma Expressão bem-formada. Para tal, haverá a
 necessidade que seu programa gere automaticamente a tabela-verdade, com elementos atômicos e
 subexpressões distintas entre si que existam na expressão bem-formada. É garantido que as expressões serão
@@ -13,7 +15,7 @@ O gerador deve ser entregue compilando, portanto, antes de enviar teste-o nas m�
 
 O Gerador de Tabela-Verdade deve ser entregue em uma única classe com o nome "Gerador.xx" (onde xx
 corresponde à linguagem que você usará) por e-mail para o seu monitor, com o assunto:
-[Tabela] - login (onde login corresponde ao login do aluno no CIn).^
+[Tabela] - login (onde login corresponde ao login do aluno no CIn).
 
 Este exercício é individual. Qualquer tentativa de fraude ou cópia será punida com uma nota 0 (ZERO) para
 ambos os infratores.
@@ -57,7 +59,7 @@ Nome do arquivo: "Gerador.xx"
 Entrada: Nome do arquivo "Expressoes.in"
 
 Contem várias expressões que serão avaliadas.
-A 1ª linha da entrada será um número n, indicando^ quantas expressões precisarão ter suas entradas
+A 1ª linha da entrada será um número n, indicando quantas expressões precisarão ter suas entradas
 avaliadas. Logo a seguir teremos n linhas, onde cada uma desta possuirá uma expressão, sem espaçamento,
 que será a expressão a ser avaliada, conforme as regras explicitadas anteriormente. É garantido que todas as
 expressões são bem-formadas e, consequentemente, possuem resposta e que cada expressão possuirá menos
@@ -67,22 +69,18 @@ prestem atenção aos nomes dos arquivos!!!
 Saída: Nome do arquivo "Expressoes.out"
 
 Deve possuir TODAS as saídas do gerador em um único arquivo, separadas por uma linha em branco.
-para cada caso de teste imprima uma linha só com "Tabela #x", onde x indica o número de caso de teste,^
+para cada caso de teste imprima uma linha só com "Tabela #x", onde x indica o número de caso de teste,
 iniciando de '1'. A partir das outras linhas, será a geração da tabela verdade.
-Na primeira linha da tabela, serão impressas, primeiramente, as variáveis. Posteriormente, dev^ erão ser impressas
+Na primeira linha da tabela, serão impressas, primeiramente, as variáveis. Posteriormente, devverão ser impressas
 todas as subexpressões com a seguinte ordenação: uma string A será menor que uma string B se o tamanho de
-
-# Projeto I - Gerador de Tabela-Verdade
-
-
 A for menor que o tamanho de B, ou, as duas havendo o mesmo tamanho, A deverá ser lexicograficamente
 menor que B.
 Só imprima sub-expressões distintas, por exemplo, caso apareçam duas sub-expressões (x.y), a saída válida só
 deverá ter uma única aparição de (x.y).
-Após o seu programa gerar uma tabela,^ ele deve imprimir três palavras: a primeira delas é "satisfativel" ou
+Após o seu programa gerar uma tabela, ele deve imprimir três palavras: a primeira delas é "satisfativel" ou
 "insatisfativel" a segunda é "e" e a terceira é "tautologia" ou "refutavel", dependendo da tabela que for gerada.
 Depois disso, sempre deixar uma linha em branco.
-É garantido que cada expressão da entrada possuirá menos de 50 subexpressões distintas não-^ atômicas.
+É garantido que cada expressão da entrada possuirá menos de 50 subexpressões distintas não-atômicas.
 
 Observação: Na saída, só deverão aparecer as variáveis que estão na expressão avaliada e devem seguir ordem
 crescente. Ou seja, se a entrada só possuir x, y e t, a saída só poderá ter essas variáveis e deve ir de 000 até
