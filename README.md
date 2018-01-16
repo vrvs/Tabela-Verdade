@@ -23,11 +23,8 @@ Detalhes
 Operador Lógico	Caracter Utilizado
 
 OU	+
-
 E	.
-
 IMPLICAÇÃO	>
-
 NEGAÇÃO	-
 
 Só serão utilizados os operadores acima.
@@ -41,11 +38,8 @@ x	y	z	t
 ■ Quanto aos parênteses:
 
 Operador Unário || Operador Binário
-
 (-x)            ||	   (x.y)
-
-(-(x+y))	    || (x>("subexpressão"))
-
+(-(x+y))        || (x>("subexpressão"))
 ((-x)+(-y))     ||	("sub1"+"sub2")
 
 
