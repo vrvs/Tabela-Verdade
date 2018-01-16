@@ -37,10 +37,10 @@ x	y	z	t
 
 ■ Quanto aos parênteses:
 
-Operador Unário || Operador Binário
-(-x)            ||	   (x.y)
-(-(x+y))        || (x>("subexpressão"))
-((-x)+(-y))     ||	("sub1"+"sub2")
+Operador Unário || Operador Binário <br />
+(-x)            ||	   (x.y) <br />
+(-(x+y))        || (x>("subexpressão")) <br />
+((-x)+(-y))     ||	("sub1"+"sub2") <br />
 
 
 ■ Quanto à Entrada/Saída
@@ -84,9 +84,9 @@ Tabela #1
 -----------
 |1|1|    1|
 -----------
-satisfativel e refutavel
-{linha em branco}
-Tabela #2
+satisfativel e refutavel <br />
+{linha em branco} <br />
+Tabela #2 <br />
 -----------------------------------
 |x|y|z|t|(x+y)|(z.t)|((x+y).(z.t))|
 -----------------------------------
@@ -122,9 +122,9 @@ Tabela #2
 -----------------------------------
 |1|1|1|1|    1|    1|            1|
 -----------------------------------
-satisfativel e refutavel
-{linha em branco}
-{cursor aqui}
+satisfativel e refutavel <br />
+{linha em branco} <br />
+{cursor aqui} <br />
 
 
 
