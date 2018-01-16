@@ -24,13 +24,14 @@ ambos os infratores.
 
 ■ Quanto aos operadores:
 
-```
-Operador Lógico Caracter Utilizado
-OU +
-E.
-IMPLICAÇÃO >
-NEGAÇÃO -
-```
+
+Operador Lógico | Caracter Utilizado
+--- | ---
+OU | +
+E | .
+IMPLICAÇÃO | >
+NEGAÇÃO | -
+
 Só serão utilizados os operadores acima.
 
 ■ Quanto às variáveis:
@@ -91,16 +92,15 @@ crescente. Ou seja, se a entrada só possuir x, y e t, a saída só poderá ter 
 
 Arquivo: "Expressoes.in"
 
-#### 2
-
 ```
-(x+y)^
-((x+y).(z.t))^
+2
+(x+y)
+((x+y).(z.t))
 ```
 Arquivo: "Expressoes.out"
 
 ```
-Tabela #
+Tabela #1
 -----------
 |x|y|(x+y)|
 -----------
@@ -114,7 +114,7 @@ Tabela #
 -----------
 satisfativel e refutavel
 {linha em branco}
-Tabela #
+Tabela #2
 -----------------------------------
 |x|y|z|t|(x+y)|(z.t)|((x+y).(z.t))|
 -----------------------------------
