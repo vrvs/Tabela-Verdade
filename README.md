@@ -1,4 +1,4 @@
-# Tabela-Verdade
+# Tabela Verdade
 
 Projeto I da cadeira de Lógica para Computação (IF673)
 
