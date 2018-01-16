@@ -73,18 +73,30 @@ Arquivo: "Expressoes.in"
 
 Arquivo: "Expressoes.out"
 
-Tabela \#1 
+Tabela \#1
+
 \-----------
+
 |x|y|(x+y)|
+
 \-----------
+
 |0|0|    0|
+
 \-----------
+
 |0|1|    1|
+
 \-----------
+
 |1|0|    1|
+
 \-----------
+
 |1|1|    1|
+
 \-----------
+
 satisfativel e refutavel <br />
 {linha em branco} <br />
 Tabela \#2 <br />
