@@ -72,7 +72,7 @@ Arquivo: "Expressoes.in"
 
 Arquivo: "Expressoes.out"
 
-Tabela #1 
+Tabela \#1 
 -----------
 |x|y|(x+y)|
 -----------
@@ -86,7 +86,7 @@ Tabela #1
 -----------
 satisfativel e refutavel <br />
 {linha em branco} <br />
-Tabela #2 <br />
+Tabela \#2 <br />
 -----------------------------------
 |x|y|z|t|(x+y)|(z.t)|((x+y).(z.t))|
 -----------------------------------
